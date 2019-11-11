@@ -50,7 +50,7 @@ const renderSwitch = formSelection => {
     case "time":
       return <p>time</p>
     default:
-      return null
+      return <p>home</p>
   }
 }
 
