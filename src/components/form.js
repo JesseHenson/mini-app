@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 export const  Personal = () => (
     <form name="contact" netlify>
   <p>
