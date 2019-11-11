@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import palette from "../themes"
+import { Personal } from "./form"
 
 const Card = styled.div`
   display: flex;
@@ -44,7 +45,7 @@ const ActionIcon = styled.div`
 const renderSwitch = formSelection => {
   switch (formSelection) {
     case "personal":
-      return <p>personal</p>
+      return <Personal/>
     case "shoot":
       return <p>shoot</p>
     case "time":
